@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "786558680373",
+    "project_id": "spring21-68f35",
+    "storage_bucket": "spring21-68f35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786558680373:android:c17afd03d92fe5513ba07c",
+        "android_client_info": {
+          "package_name": "com.celmelund.listview21spring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786558680373-9vdv7vugage1h01ottlpaqub1ji37pjc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqL_aFZOxxtGi5Lguj7rVZqrs1iHg2ySo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786558680373-9vdv7vugage1h01ottlpaqub1ji37pjc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "786558680373-5jprihvteejr13oqbfak5peqnmhaao39.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "celmelund.MapDemo21"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786558680373:android:bddb8a62beb0b09b3ba07c",
+        "android_client_info": {
+          "package_name": "com.celmelund.snapapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786558680373-9vdv7vugage1h01ottlpaqub1ji37pjc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqL_aFZOxxtGi5Lguj7rVZqrs1iHg2ySo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786558680373-9vdv7vugage1h01ottlpaqub1ji37pjc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "786558680373-5jprihvteejr13oqbfak5peqnmhaao39.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "celmelund.MapDemo21"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

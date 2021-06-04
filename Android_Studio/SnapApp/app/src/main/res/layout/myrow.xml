@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C1F4F885"
+    android:orientation="vertical"
+    android:textAlignment="center">
+
+    <TextView
+        android:id="@+id/textRow"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#95F1D2B1"
+        android:fontFamily="sans-serif-medium"
+        android:paddingTop="50px"
+        android:text="NEW SNAP"
+        android:textAlignment="center"
+        android:textColor="#C61B1717"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>

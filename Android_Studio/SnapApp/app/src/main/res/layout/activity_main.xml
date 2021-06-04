@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C1F4F882"
+    android:onClick="snapBtn"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/snapList"
+        android:layout_width="412dp"
+        android:layout_height="661dp"
+        android:background="#DAA75A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/snapButton"
+        android:layout_width="206dp"
+        android:layout_height="75dp"
+        android:onClick="snapBtn"
+        android:text="Take a Snap"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/photoButton"
+        android:layout_width="206dp"
+        android:layout_height="75dp"
+        android:onClick="photoBtn"
+        android:text="Choose existing Photos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
