@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>786558680373-2gk2hnsmgvqif5en0lc1h1mc90nhva9l.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.786558680373-2gk2hnsmgvqif5en0lc1h1mc90nhva9l</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDGKpudIDYW8OFfZ7njJE_bLIWg-oQ59Yg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>786558680373</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>celmelund.ChatApp</string>
+	<key>PROJECT_ID</key>
+	<string>spring21-68f35</string>
+	<key>STORAGE_BUCKET</key>
+	<string>spring21-68f35.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:786558680373:ios:7a3cb3382ecdf0cc3ba07c</string>
+</dict>
+</plist>

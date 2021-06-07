@@ -169,7 +169,7 @@ public class MainActivity extends AppCompatActivity implements Updateable{
 
 
     /*
-    * setupListView is great method aswell since this method, as the name explaines, sets up our listview and listens for any
+    * setupListView is great method as well since this method, as the name explaines, sets up our listview and listens for any
     * new list items that may be in our database for us to watch.
     * In the method we have also added a clickListener on every listItem which transfer the data from the selected
     * intent in the mainActivity class into the DetailActivity class. 
