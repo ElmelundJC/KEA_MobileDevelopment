@@ -7,6 +7,7 @@
 
 import UIKit
 import Firebase
+import IQKeyboardManagerSwift
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +17,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         FirebaseApp.configure()
+        let db = Firestore.firestore()
         
+        print(db)
+        
+        // 3 party library that helps us helps the textfield to follow the keyboard move up when typing a text.
+        // enableAutobar = false, removes the grey field for pressing "Done"
+        // shouldResignOnTouchOutside = true, when clicked elsewhere than the keyboard, the keybords disapear.
+        
+        IQKeyboardManager.shared.enable = true // fixes the keyboard issues
+        IQKeyboardManager.shared.enableAutoToolbar = false // removes the gray toolbar
+        IQKeyboardManager.shared.shouldResignOnTouchOutside = true
         return true
     }
 

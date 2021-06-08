@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReusableCell" rowHeight="72" id="KGk-i7-Jjw" customClass="MessageCell" customModule="ChatApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="72"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="350" height="72"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Cjh-aF-aBY">
+                        <rect key="frame" x="10" y="10" width="330" height="52"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ysL-7P-MUR">
+                                <rect key="frame" x="0.0" y="1.5" width="40" height="37.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="3oW-5d-cp2"/>
+                                    <constraint firstAttribute="width" constant="40" id="irV-aY-eR8"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K74-ax-6Dr">
+                                <rect key="frame" x="60" y="0.0" width="210" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="boU-sR-ANi">
+                                        <rect key="frame" x="10" y="10" width="190" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <constraints>
+                                    <constraint firstItem="boU-sR-ANi" firstAttribute="leading" secondItem="K74-ax-6Dr" secondAttribute="leading" constant="10" id="2xl-Bi-gGh"/>
+                                    <constraint firstAttribute="bottom" secondItem="boU-sR-ANi" secondAttribute="bottom" constant="10" id="NBe-4l-dR6"/>
+                                    <constraint firstAttribute="trailing" secondItem="boU-sR-ANi" secondAttribute="trailing" constant="10" id="hmf-e7-9hJ"/>
+                                    <constraint firstItem="boU-sR-ANi" firstAttribute="top" secondItem="K74-ax-6Dr" secondAttribute="top" constant="10" id="xWH-iS-411"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="HYR-ho-eEV">
+                                <rect key="frame" x="290" y="1.5" width="40" height="37"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="E8k-Ld-KxH"/>
+                                    <constraint firstAttribute="height" constant="40" id="MQE-V5-zfw"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Cjh-aF-aBY" secondAttribute="bottom" constant="10" id="NMo-vz-lVo"/>
+                    <constraint firstItem="Cjh-aF-aBY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Zkh-Xs-9jq"/>
+                    <constraint firstAttribute="trailing" secondItem="Cjh-aF-aBY" secondAttribute="trailing" constant="10" id="bBq-Kx-hOV"/>
+                    <constraint firstItem="Cjh-aF-aBY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="fyp-Of-IFO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="label" destination="boU-sR-ANi" id="hro-pX-2As"/>
+                <outlet property="leftImageView" destination="ysL-7P-MUR" id="48R-Zr-5Xn"/>
+                <outlet property="messageBubble" destination="K74-ax-6Dr" id="y09-FI-fx6"/>
+                <outlet property="rightImageView" destination="HYR-ho-eEV" id="56A-Kh-ATN"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="82.366071428571431"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="person" catalog="system" width="128" height="117"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
